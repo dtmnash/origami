@@ -61,7 +61,7 @@ public class SphereSounds : MonoBehaviour
 
     void OnCollisionExit(Collision collision)
     {
-        if(rolling)
+        if (rolling)
         {
             rolling = false;
             audioSource.Stop();
